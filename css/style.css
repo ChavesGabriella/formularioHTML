@@ -7,7 +7,6 @@
 section{
     border: 1px solid;
     border-radius: 10px;
-    padding: 20px;
 
     display: flex;
     flex-direction: column;
@@ -16,6 +15,7 @@ section{
     width: 60%;
 
     margin: auto;
+    background-image: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
 }
 
 form{
@@ -23,6 +23,7 @@ form{
     flex-direction: column;
     gap: 20px;
     padding: 20px;
+    width: 100%;
 }
 
 form fieldset{
@@ -59,20 +60,20 @@ form fieldset{
 }
 
 .form-botoes input[type="reset"]{
-    border: 3px solid red;
+    border: 3px solid pink;
     background-color: transparent;
-    color: red;
+    color: palevioletred;
     font-weight: bold;
 }
 
 .form-botoes input[type="submit"]{
-    background-color: red;
+    background-color: palevioletred;
     color: white;
     font-weight: bold;
 }
 
 .form-botoes input[type="submit"]:hover{
-    background-color: rgb(151, 36, 36);
+    background-color: pink;
 }
 
 /* opções
