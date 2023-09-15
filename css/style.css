@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+ul,li a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
+}
+
+
 section{
     border: 1px solid;
     border-radius: 10px;
